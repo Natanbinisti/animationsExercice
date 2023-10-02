@@ -18,7 +18,7 @@
 
     background-image: url("keanu-mirror.jpg");
     background-size: cover;
-  
+
 }
 
 
@@ -28,8 +28,8 @@
     background-image: url("2.jpg");
     background-size: cover;
 
-    
-    
+
+
 }
 
 
@@ -37,6 +37,10 @@
     background-image: url("leo.jpg");
     background-size:cover;
     border-radius: 100px;
+}>
+.leo:hover{
+
+    transition: ease-in-out 2s;
 }
 
 
@@ -48,17 +52,26 @@
     width : 100px;
 
 }
+
 .voiture{
     background-image: url("voiture.png");
     background-size:contain;
     background-repeat: no-repeat;
     height: 150px;
     width : 1200px;
+    display: flex;
+
 
 }
+.voiture:hover{
+
+    transform: translateX(1000px);
+    transition: ease-in-out 4s;
+}
+
 
 
 .container2{
     display:flex;
-    flex-wrap:wrap; 
+    flex-wrap:wrap;
 }
